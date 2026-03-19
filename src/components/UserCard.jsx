@@ -1,10 +1,7 @@
-import React from 'react'
-
-const UserCard = ({ user }) => {
+function UserCard({ user }) {
   return (
-    <div>
-      <img src={user.picture.large} alt="" />
-      <h1>{user.name.first} {user.name.last}</h1>
+    <div className="card">
+      <h2>{user.name}</h2>
       <p>{user.email}</p>
     </div>
   )
