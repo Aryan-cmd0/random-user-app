@@ -1,6 +1,6 @@
 import React from 'react'
 
-const temp = () => {
+const Temp = () => {
   return (
     <div>
       <h1>Random User Generator</h1>
@@ -8,4 +8,4 @@ const temp = () => {
   )
 }
 
-export default temp
+export default Temp

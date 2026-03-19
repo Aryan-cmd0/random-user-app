@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from './assets/vite.svg'
 // import heroImg from './assets/hero.png'
-import Navbar from './components/temp'
+import Temp from './components/temp'
 import './App.css'
 import UserCard from './components/UserCard'
 
@@ -43,7 +43,7 @@ function App() {
 
   return (
     <>
-      <temp />
+      <Temp />
       <h1>Random User App</h1>
 
       <button onClick={fetchUser}>Generate Users</button>
