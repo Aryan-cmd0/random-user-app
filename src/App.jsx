@@ -43,7 +43,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <temp />
       <h1>Random User App</h1>
 
       <button onClick={fetchUser}>Generate Users</button>
